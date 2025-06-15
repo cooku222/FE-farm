@@ -18,9 +18,6 @@ function SplashPage() {
       justifyContent: 'center', alignItems: 'center', background: '#fff'
     }}>
       <Logo size={180} />
-      <div style={{ fontSize: 36, fontWeight: 700, color: '#23482a', marginTop: 24 }}>
-        청년팜
-      </div>
     </div>
   );
 }

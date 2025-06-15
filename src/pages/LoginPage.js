@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Logo from '../components/Logo';
 
 function LoginPage() {
   const [userId, setUserId] = useState('');
@@ -10,9 +9,6 @@ function LoginPage() {
       minHeight: '100vh', display: 'flex', flexDirection: 'column',
       justifyContent: 'center', alignItems: 'center', background: '#fff'
     }}>
-      <div style={{ alignSelf: 'flex-start', margin: 32 }}>
-        <Logo size={40} />
-      </div>
       <form style={{
         width: 320, padding: 32, borderRadius: 16, boxShadow: '0 0 12px #eee',
         background: '#fff', display: 'flex', flexDirection: 'column', gap: 20
