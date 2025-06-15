@@ -1,15 +1,27 @@
 import React, { useState } from 'react';
+import { useNavigate } from "react-router-dom";
+
 
 function LoginPage() {
+  const navigate = useNavigate();
   const [userId, setUserId] = useState('');
   const [password, setPassword] = useState('');
+
+  
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // 실제 로그인 로직 대신 바로 이동 (테스트용)
+    navigate("/posts");
+  };
 
   return (
     <div style={{
       minHeight: '100vh', display: 'flex', flexDirection: 'column',
       justifyContent: 'center', alignItems: 'center', background: '#fff'
     }}>
-      <form style={{
+      <form
+        onSubmit={handleSubmit} 
+        style={{
         width: 320, padding: 32, borderRadius: 16, boxShadow: '0 0 12px #eee',
         background: '#fff', display: 'flex', flexDirection: 'column', gap: 20
       }}>
