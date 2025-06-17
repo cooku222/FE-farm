@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SplashPage from './pages/SplashPage';
 import LoginPage from './pages/LoginPage';
 import PostListPage from "./pages/PostListPage";
-import SelectMap from './pages/SelectMap.js';
+import Kakao from "./pages/SelectMap"; // 또는 정확한 경로
+
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
         <Route path="/" element={<SplashPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/posts" element={<PostListPage />} />
-        <Route path="/map_home" element={<SelectMap/>}/>
+        <Route path="/Kakao" element={<Kakao/>}/>
       </Routes>
     </Router>
   );

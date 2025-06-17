@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import PostList from "../components/PostList";
 import AddPostButton from "../components/AddPostButton";
 import SearchBar from "../components/SearchBar";
@@ -6,6 +7,7 @@ import SearchBar from "../components/SearchBar";
 const PostListPage = () => {
   const [searchVisible, setSearchVisible] = useState(false);
   const [searchValue, setSearchValue] = useState("");
+  const navigate = useNavigate();
 
   return (
     <div style={{
@@ -31,6 +33,7 @@ const PostListPage = () => {
           onMouseLeave={() => setSearchVisible(false)}
         >
           <span
+            onClick={() => navigate("/select")}
             style={{
               display: "inline-block",
               width: 32,
