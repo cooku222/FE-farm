@@ -33,7 +33,7 @@ const PostListPage = () => {
           onMouseLeave={() => setSearchVisible(false)}
         >
           <span
-            onClick={() => navigate("/select")}
+            onClick={() => navigate("/kakao")}
             style={{
               display: "inline-block",
               width: 32,
