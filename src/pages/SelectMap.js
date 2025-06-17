@@ -29,7 +29,7 @@ function Kakao() {
           type="text"
           placeholder="장소, 버스, 지하철, 주소 검색"
           style={{
-            width: "100%",
+            width: "80%",
             padding: "10px 12px",
             fontSize: 14,
             borderRadius: 8,
