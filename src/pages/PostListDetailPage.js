@@ -11,7 +11,6 @@ export default function JobDetail() {
         <div className="relative bg-gray-300 h-40 flex items-center justify-center">
           {/* 추후 여기에 이미지 삽입 */}
           <span className="absolute top-2 left-2 bg-red-500 text-white text-sm font-semibold rounded-full px-2 py-1">
-            수빈
           </span>
         </div>
 
