@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## FE-farm (청년팜 프론트엔드)
+> 🌱 청년팜은 충청도 지역을 중심으로 한 농업 플랫폼/커뮤니티 어플리케이션입니다.
+> 구름톤 단국대학교(천안캠퍼스)에서 진행된 프로젝트 레포지토리 입니다. 
+이 저장소는 청년팜 프론트엔드 코드베이스이며, React.js로 구축되었습니다.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔧 기술 스택
+> Frontend: React.js (CRA 기반)
+> 지도 서비스: Kakao Maps API 사용
 
-## Available Scripts
+> 상세 기능:
+> 지역 기반 농업 커뮤니티 구성
+> kakao map 기반 위치 렌더링 기능
+> 상세 페이지 UI 및 로직 구현 중
 
-In the project directory, you can run:
+## 디렉토리 구조
+```
+FE-farm/
+├── public/                     # 정적 파일 및 kakao map 설정
+├── src/                        # React 소스 코드 (컴포넌트, 라우터, API 등)
+│   └── ...                     # 현재 상세 페이지 로직 초안 구현됨
+├── .gitignore                  # Git 무시 설정
+├── README.md                   # 프로젝트 설명서
+├── package.json                # 프로젝트 메타데이터 및 의존성
+├── package-lock.json           # 정확한 의존성 버전 기록
+```
 
-### `npm start`
+## 🗺 주요 기능
+✅ Kakao 지도 API 연동 및 마커 렌더링
+🔄 상세 페이지 UI 초안 구현 완료 (로직 지속 개선 중)
+🧩 향후 기능:
+- 사용자 기반 위치 추천
+- 커뮤니티 기능 (게시판, 댓글 등)
+- 농업 정보 연동 API 연계
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🧪 개발 및 실행
+```
+npm install
+npm start
+```
